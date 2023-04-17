@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "./tests/test_3rd_harm_1d.py", line 5, in <module>
+    import meep as mp
+  File "/Users/stevenj/Code/meep/python/meep/__init__.py", line 13, in <module>
+    from . import _meep
+ImportError: dlopen(/Users/stevenj/Code/meep/python/meep/_meep.so, 0x0002): Symbol not found: (___addtf3)
+  Referenced from: '/opt/homebrew/Cellar/gcc/12.2.0/lib/gcc/current/libgfortran.5.dylib'
+  Expected in: '/Users/stevenj/.julia/conda/3/lib/libgcc_s.1.1.dylib'
+FAIL tests/test_3rd_harm_1d.py (exit status: 1)

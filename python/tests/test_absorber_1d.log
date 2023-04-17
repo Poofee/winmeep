@@ -1,0 +1,41 @@
+-----------
+Initializing structure...
+time for choose_chunkdivision = 5.6982e-05 s
+Working in 1D dimensions.
+Computational cell is 0 x 0 x 10 with resolution 40
+time for set_epsilon = 6.8903e-05 s
+time for set_conductivity = 1.81198e-05 s
+time for set_conductivity = 5.96046e-06 s
+lorentzian susceptibility: frequency=2.80116, gamma=2.72777
+lorentzian susceptibility: frequency=1.45825, gamma=1.08966
+lorentzian susceptibility: frequency=1.24532, gamma=0.251645
+lorentzian susceptibility: frequency=0.130662, gamma=0.268583
+drude susceptibility: frequency=1e-10, gamma=0.0379081
+-----------
+.field decay(t = 50.0125): 0.0019939038135147777 / 0.0019939038135147777 = 1.0
+field decay(t = 100.025): 0.001991759689325346 / 0.0019939038135147777 = 0.9989246601692124
+field decay(t = 150.0375): 1.7878132391584372e-10 / 0.0019939038135147777 = 8.966396608705754e-08
+run 0 finished at t = 150.0375 (12003 timesteps)
+-----------
+Initializing structure...
+time for choose_chunkdivision = 9.53674e-07 s
+Working in 2D dimensions.
+Computational cell is 20 x 20 x 0 with resolution 10
+time for set_epsilon = 0.016335 s
+time for set_conductivity = 0.000751019 s
+time for set_conductivity = 0.000750065 s
+time for set_conductivity = 0.000751972 s
+time for set_conductivity = 0.00078392 s
+time for set_conductivity = 0.000788927 s
+time for set_conductivity = 0.000792027 s
+-----------
+.
+----------------------------------------------------------------------
+Ran 2 tests in 2.364s
+
+OK
+FloatProgress(value=0.0, description='0% done ', max=1100.0)
+run 0 finished at t = 1100.0 (22000 timesteps)
+
+Elapsed run time = 2.3696 s
+PASS tests/test_absorber_1d.py (exit status: 0)
