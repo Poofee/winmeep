@@ -1,0 +1,9 @@
+*.o
+*.lo
+*.Plo
+*.Po
+*.exe
+*.log
+/tests/.libs
+/autom4te.cache
+/src/.libs
